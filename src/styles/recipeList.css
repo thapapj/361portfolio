@@ -1,0 +1,31 @@
+.display.recipes{
+    height: 100%;
+}
+.recipe.grid{
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.recipe.grid.item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.recipe.grid.item:hover{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5%;
+    background-color: aqua;
+}
+
+.recipe.grid> #navigation{
+    
+}

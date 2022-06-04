@@ -1,0 +1,57 @@
+#Form{
+    height: 80%;
+}
+
+#recipeForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#recipeForm>h1{
+    background-color: rgb(226, 149, 181);
+    padding: 2%
+}
+
+#recipeName{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: large;
+}
+
+#recipeNumber{
+    padding: 12px 20px;
+    font-size: large;
+}
+
+#recipeForm>#nextStep{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#navigation{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#link1, #link2{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    border-radius: 5%;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+}
